@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Breeds Showcase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>고양이 품종 소개</h1>
+        <p>TICA를 참고한 다양한 고양이들의 세계를 만나보세요</p>
+        
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">전체보기</button>
+            <button class="filter-btn" data-filter="size-large">대형묘</button>
+            <button class="filter-btn" data-filter="activity-high">높은 활동량</button>
+            <button class="filter-btn" data-filter="grooming-low">쉬운 털 관리</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="gallery" id="cat-gallery">
+            <!-- Cat cards will be inserted here by JavaScript -->
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
